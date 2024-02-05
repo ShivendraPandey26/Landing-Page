@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav{
+      @apply hover:underline hover:underline-offset-8 hover:decoration-[3px]
+      cursor-pointer
+  }
+
+  .s-nav{
+    @apply hover:bg-slate-400 hover:text-black border-2
+    cursor-pointer p-5
+  }
+
+  .menu {
+    @apply text-3xl cursor-pointer
+  }
+}
